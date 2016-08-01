@@ -1,0 +1,38 @@
+<h1>Messages</h1>
+<div class="well">
+  <%= link_to "New Message", new_message_path, class: "btn btn-primary" %>
+</div>
+
+<% if flash[:notice] %>
+  <div class="alert alert-success"><%= flash[:notice] %></div>
+<% end %>
+
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th>Published At</th>
+      <th>Author</th>
+      <th>Message</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% if @messages.size == 0 %>
+      <tr>
+        <td colspan="4">No people found.</td>
+      </tr>
+    <% else %>
+      <% @messages.each do |message| %>
+        <tr>
+          <td><%= message.published_at %></td>
+          <td><%= message.author %></td>
+          <td><%= message.message %></td>
+          <td>
+            <%= link_to "Edit", edit_message_path(message), class: "btn btn-default" %>
+            <%= button_to "Delete", message, method: :delete, data: { confirm: "Are you sure you wish to delete" }, class: "btn btn-danger" %>
+          </td>
+        </tr>
+      <% end %>
+    <% end %>
+  </tbody>
+</table>
