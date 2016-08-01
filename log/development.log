@@ -5025,3 +5025,35 @@ Started GET "/assets/main.self-d7b457a7bdf75ccc026219473e5434db66422efd6f7782e54
 
 
 Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-08-01 11:36:28 +0200
+
+
+Started GET "/" for ::1 at 2016-08-01 18:17:16 +0200
+Processing by MessagesController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.3610ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=project_development command={:count=>"messages", :query=>{}} runtime: 0.9170ms
+  Rendered messages/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 880ms (Views: 800.9ms)
+
+
+Started GET "/assets/bootstrap-timepicker.self-fefc698da943629b3716bb8fde7e86ff32ec9de789e85a11288b46ac9568b8b7.css?body=1" for ::1 at 2016-08-01 18:17:17 +0200
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-08-01 18:17:17 +0200
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-08-01 18:17:17 +0200
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2016-08-01 18:17:17 +0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-08-01 18:17:17 +0200
+
+
+Started GET "/assets/bootstrap-timepicker.self-55201ab9e7a5c75339f0e971d98a44d0487da25baae4eb5919bbe42c4d6019f7.js?body=1" for ::1 at 2016-08-01 18:17:17 +0200
+
+
+Started GET "/assets/main.self-d7b457a7bdf75ccc026219473e5434db66422efd6f7782e546a02f895090a475.js?body=1" for ::1 at 2016-08-01 18:17:17 +0200
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-08-01 18:17:17 +0200
