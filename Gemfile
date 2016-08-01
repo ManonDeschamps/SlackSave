@@ -34,7 +34,7 @@ gem 'mongoid', '~> 4.0.2'
 gem 'bson_ext'
 gem 'bootstrap-timepicker-rails'
 gem 'puma'
-gem 'pg'
+
 
 group :production do 
   gem 'rails_12factor', '0.0.2'

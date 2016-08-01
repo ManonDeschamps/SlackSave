@@ -92,7 +92,6 @@ GEM
       pkg-config (~> 1.1.7)
     optionable (0.2.0)
     origin (2.2.0)
-    pg (0.15.1)
     pkg-config (1.1.7)
     puma (3.2.0)
     rack (1.6.4)
@@ -175,7 +174,6 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   mongoid (~> 4.0.2)
-  pg
   puma
   rails (= 4.2.4)
   rails_12factor (= 0.0.2)
